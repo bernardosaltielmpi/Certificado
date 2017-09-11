@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class Database {
 	
 	public static Connection getConnection() throws SQLException {
-		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/certificado?useSSL=false", "root","");
+		Connection connection = DriverManager.getConnection("jdbc:mysql://testemouzart/certificado?useSSL=false", "root","");
 		return connection;
 	}
 	
